@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+source 'https://supermarket.chef.io'
+
+metadata
+
+cookbook 'centos-symmetricds', path: "~/chef-repo/cookbooks/centos-symmetricds"
+cookbook 'mariadb', '~> 1.5.3'
