@@ -6,7 +6,7 @@
 
 include_recipe 'mariadb'
 include_recipe 'yum'
-include_recipe 'centos-symmetricds'
+include_recipe 'symmetricds'
 
 execute 'upgrade centos' do
   command "yum upgrade -y"

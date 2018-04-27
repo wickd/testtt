@@ -3,5 +3,5 @@ source 'https://supermarket.chef.io'
 
 metadata
 
-cookbook 'centos-symmetricds', path: "~/chef-repo/cookbooks/centos-symmetricds"
+cookbook 'symmetricds', path: "~/chef-repo/cookbooks/symmetricds"
 cookbook 'mariadb', '~> 1.5.3'
