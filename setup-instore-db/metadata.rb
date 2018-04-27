@@ -19,7 +19,6 @@ chef_version '>= 12.14' if respond_to?(:chef_version)
 #
 # source_url 'https://github.com/<insert_org_here>/setup-instore-db'
 
-%w(mariadb yum symmetricds).each do |d|
-# %w(yum centos-symmetricds).each do |d|
+%w(yum mariadb symmetricds).each do |d|
   depends d
 end
